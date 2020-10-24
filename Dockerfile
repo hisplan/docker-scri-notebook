@@ -9,5 +9,6 @@ RUN pip3 install scanpy[leiden]==1.6.0
 RUN pip3 install papermill==2.1.3
 
 COPY ./notebooks/preprocess.ipynb /opt/
+COPY ./notebooks/QC.ipynb /opt/
 
 WORKDIR /home/jovyan/work
