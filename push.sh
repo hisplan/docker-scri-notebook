@@ -1,5 +1,7 @@
-#!/bin/bash
+#!/bin/bash -e
 
-docker login
-docker tag scri-notebook:0.0.1 hisplan/scri-notebook:0.0.1
-docker push hisplan/scri-notebook:0.0.1
+source config.sh
+
+echo "${registry}/${image_name}:${version}"
+
+scing push --image=${registry}/${image_name}:${version}

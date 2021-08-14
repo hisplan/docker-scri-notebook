@@ -1,3 +1,5 @@
-#!/bin/bash
+#!/bin/bash -e
 
-docker build . --tag scri-notebook:0.0.1
+source config.sh
+
+docker build -t ${image_name}:${version} .
