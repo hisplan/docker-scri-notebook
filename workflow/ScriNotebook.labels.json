@@ -1,9 +1,0 @@
-{
-    "pipelineType": "ScriNotebook",
-    "project": "DEV/TEST",
-    "sample": "PBMC 1k (10x v3)",
-    "owner": "chunj",
-    "destination": "s3://dp-lab-home/chunj/",
-    "transfer": "n/a",
-    "comment": "DEV/TEST"
-}
