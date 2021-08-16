@@ -1,0 +1,4 @@
+scanpy[leiden]==1.8.1
+papermill==2.3.3
+anndata2ri==1.0.6
+rpy2
