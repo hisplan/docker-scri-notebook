@@ -1,5 +1,7 @@
 # docker-scri-notebook
 
+Basic Jupyter Notebook environment for single-cell analysis using Python and R.
+
 ## Base Image
 
 [jupyter/datascience-notebook:notebook-6.4.0](https://hub.docker.com/layers/jupyter/datascience-notebook/notebook-6.4.0/images/sha256-4a017d04db921fb44d87c14e4c588b9db40652dac861aa06a6fbd7fb36f33641?context=explore)
